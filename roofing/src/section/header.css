@@ -1,0 +1,12 @@
+.header-first{
+    display: flex;
+    flex-direction: row;
+}
+.header-second{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.home,.works,.services{
+    padding-left: 20px;
+}
