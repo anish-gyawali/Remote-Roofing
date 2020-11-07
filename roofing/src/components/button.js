@@ -3,7 +3,9 @@ import './components.css';
 
 const Button =({title})=>{
     return(
-<div className="button">{title}</div>
+    <div className='button-wrapper' >
+        <button className="button">{title}</button>
+        </div>
 )
 }
 export default Button;

@@ -1,5 +1,21 @@
 /* CSS for button*/
 .button{
-    background-color: rgba(32, 64, 245, 0.822);
-    border-radius: 10;
+    background-color: rgba(32, 64, 245, 0.822)!important; 
+    padding: 6%;
+}
+.button-wrapper{
+    
+    width: 10vw;
+    border-radius: 2rem ;
+}
+
+/*InputText */ 
+#location-logo{
+    background-image: url('../assets/location.png');
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+.text-input{
+    padding: 5%;
+    border: white;
 }

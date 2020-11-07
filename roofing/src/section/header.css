@@ -10,3 +10,16 @@
 .home,.works,.services{
     padding-left: 20px;
 }
+
+.form-wrapper{
+    background-color: aquamarine;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-radius:5rem;
+    width: 40%;
+    
+}
+.header-form{
+    display: flex;
+    flex-direction: row;
+}
