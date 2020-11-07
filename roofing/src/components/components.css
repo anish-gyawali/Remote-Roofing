@@ -1,21 +1,29 @@
 /* CSS for button*/
 .button{
     background-color: rgba(32, 64, 245, 0.822)!important; 
-    padding: 6%;
+    border-radius: 10rem;
+    padding:11px 40px 11px 40px;   
 }
-.button-wrapper{
-    
-    width: 10vw;
-    border-radius: 2rem ;
+.button>text{
+    color: white;
 }
-
 /*InputText */ 
-#location-logo{
-    background-image: url('../assets/location.png');
-    background-repeat: no-repeat;
-    background-size: 16px;
-}
 .text-input{
-    padding: 5%;
-    border: white;
+    width: 14rem;
+    padding: 0.8rem;
+    border: none;
+    font-size: medium;
+}
+/*card*/
+.card-container{
+    margin-top: 5rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.icon-one{
+
 }

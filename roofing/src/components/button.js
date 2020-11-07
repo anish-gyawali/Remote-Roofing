@@ -3,8 +3,8 @@ import './components.css';
 
 const Button =({title})=>{
     return(
-    <div className='button-wrapper' >
-        <button className="button">{title}</button>
+    <div className="button">
+        <text >{title}</text>
         </div>
 )
 }

@@ -4,7 +4,7 @@ import './components.css';
  const InputText=({placeholder})=> {
     return (
         <div >
-            <input id='location-logo' className='text-input' placeholder={placeholder}/>
+            <input className='text-input' placeholder={placeholder}/>
         </div>
     )
 }
