@@ -14,12 +14,12 @@ function Header() {
       <div className="header-first">
         <div className="upper-left">
           <a href="http://remoteroofing.com/">
-            <img className="logo" src={Logo} />
+            <img className="logo" src={Logo} alt='logo' />
           </a>
         </div>
         <div className="upper-right">
           <div>
-            <img className="phone-icon" src={Phone} />
+            <img className="phone-icon" src={Phone} alt='phone'/>
           </div>
             <a href="tel:+1-800-401-7716" >
               <div className="phone-number">
@@ -31,21 +31,21 @@ function Header() {
       </div>
 
       <div className="header-second">
-        <div className="home">Home</div>
+        <div className="home"><u>Home</u></div>
         <div className="services">Services</div>
         <div className="works">How it works</div>
       </div>
       <div className="header-body">
         <div className="body-text">
           <h1> Free roof Repair Inspection & Local Roofing Quote</h1>
-          <h3>
+          <p>
             Get your roof inspected remotely and connect with our trusted
             roofers
-          </h3>
+          </p>
         </div>
         <div className="form-wrapper">
           <form className="header-form">
-            <img className='location-logo' src={location}/>
+            <img className='location-logo' src={location} alt='location'/>
             <InputText placeholder="Your Address" />
             <Button title="Get Inspection" />
           </form>

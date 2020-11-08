@@ -1,3 +1,4 @@
+
 .section1{
     background-color: #5f5d5de1;
 }
@@ -5,7 +6,7 @@
     margin: auto;
     width: 65%;
     padding: 1rem;
-    height: 70vh;
+    height: 55vh;
 }
 .header-first {
     display: flex;
@@ -70,6 +71,8 @@
     color: white;
 }
 
+
+
 .form-wrapper {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -81,7 +84,6 @@
     border: 1px solid black;
     background-color: white;
 }
-
 .location-logo {
     padding: 0.5rem ;
     width: 20px;
@@ -91,4 +93,68 @@
 .header-form {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 812px) {
+    .logo {
+        width: 75px;
+        height: 30px;
+    }
+    .upper-right {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        font-size: small;
+        padding-right: 6rem;   
+    }
+    
+    .body-text {
+        color: white;
+        font-size: 15px;
+    } 
+    .body-text>p{
+        font-size: 20px;
+        padding-right: 2rem;
+    }
+    .phone-icon {
+        padding-right: 0.5rem;
+        width: 14px;
+        height: 16px;
+    }
+    .home,.works, .services {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .section1{
+        background-color: #5f5d5de1;
+    }
+    .container {
+        margin: auto;
+        width: 100%;
+        height: 65vh;
+    }
+    .form-wrapper {
+        margin-top: 5vh;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        border-radius: 10rem;
+        border: 1px solid black;
+        background-color: white;
+        
+    }
+    .location-logo {
+        padding: 0.5rem ;
+        width: 20px;
+        height: 27px;
+    }
+    
+    .header-form {
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
